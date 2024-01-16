@@ -1,0 +1,380 @@
+ERROR 2024-01-16 22:53:31,809 log 12800 12580 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 22:53:31,811 basehttp 12800 12580 "GET /subscribe/ HTTP/1.1" 500 93053
+ERROR 2024-01-16 23:00:56,258 log 12800 6084 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:00:56,259 basehttp 12800 6084 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:04:50,691 log 12800 10744 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:04:50,692 basehttp 12800 10744 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:04:55,471 log 12800 10744 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:04:55,472 basehttp 12800 10744 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:05:39,452 log 1848 19144 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:05:39,454 basehttp 1848 19144 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:05:47,397 log 1848 19144 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:05:47,398 basehttp 1848 19144 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:06:08,578 log 1848 19144 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:06:08,579 basehttp 1848 19144 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:06:13,370 log 9304 14988 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:06:13,371 basehttp 9304 14988 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:06:16,952 log 9304 14988 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:06:16,953 basehttp 9304 14988 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:08:40,923 log 16300 14304 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:08:40,925 basehttp 16300 14304 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:15:32,241 log 18960 14400 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:15:32,243 basehttp 18960 14400 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:20:04,705 log 4780 10448 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:20:04,707 basehttp 4780 10448 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:21:43,977 log 12696 3624 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:21:43,978 basehttp 12696 3624 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:21:50,160 log 12696 3624 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:21:50,161 basehttp 12696 3624 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:39:49,912 log 19008 14172 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:39:49,914 basehttp 19008 14172 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:40:24,189 log 15184 18024 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:40:24,191 basehttp 15184 18024 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:45:22,319 log 12556 18992 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:45:22,320 basehttp 12556 18992 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:52:22,426 log 12748 16124 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:52:22,428 basehttp 12748 16124 "GET /subscribe/ HTTP/1.1" 500 93328
+ERROR 2024-01-16 23:52:49,851 log 12748 16124 Internal Server Error: /subscribe/
+Traceback (most recent call last):
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 180, in get
+    return super().get(request, *args, **kwargs)
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "C:\Users\Semen\Documents\Проекты\Skillfactory\news2\venv\lib\site-packages\django\views\generic\edit.py", line 39, in get_form
+    return form_class(**self.get_form_kwargs())
+TypeError: BaseModelForm.__init__() got an unexpected keyword argument 'user'
+ERROR 2024-01-16 23:52:49,852 basehttp 12748 16124 "GET /subscribe/ HTTP/1.1" 500 93328

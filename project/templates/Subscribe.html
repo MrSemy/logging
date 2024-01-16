@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Подписка на категории</h1>
+    <form method="post" action="{% url 'subscribe' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Подписаться</button>
+    </form>
+{% if request.user.subscribers_set.all %}
+    <h3><u>Вы подписаны на категории:</u></h3>
+{% for subscriber in request.user.subscribers_set.all %}
+    <h3>{{ subscriber.category }}</h3>
+{% endfor %}
+{% endif %}
+<!--<h3>{{ message }}</h3>-->
+<!--{% if not request.session.is_subscribed %}-->
+<!--<h3>{{ request.session.subscriber_category }}</h3>-->
+<!--{% endif %}-->
+</body>
+</html>
